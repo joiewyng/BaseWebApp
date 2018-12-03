@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 h1 {
@@ -73,6 +73,28 @@ h4 {
 .contact-icon.fa-facebook-square {
   color: #3b5998;
 }
+
+/*navigation bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/*nav bar links*/
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/*nav bar link change color on click*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 
 body {
   background-color: #addcf1;
