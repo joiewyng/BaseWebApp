@@ -1,6 +1,4 @@
-body {
-  margin: 0% 15%;
-}
+/* 
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -15,18 +13,6 @@ h4 {
 .page-header {
   text-align: center;
   
-}
-
-.tina-gif {
-  text-align: center;
-  margin: 50px 0;
-}
-
-.queen-of-computers {
-  width: 300px;
-  margin: 50px auto;
-  border-radius: 50%;
-  display: block;
 }
 
 .content {
@@ -72,11 +58,103 @@ h4 {
 
 .contact-icon.fa-facebook-square {
   color: #3b5998;
+} */
+
+/* general styling */
+body {
+  max-width: 1233px;
 }
 
-/*navigation bar*/
+/* navigation bar */
+ul{
+  list-style-type: none;
+  font-family: 'Open Sans', 'sans-serif';
+  margin: 0;
+  padding: 70px;
+  width: 300px;
+  /* background-color: #f1f1f1; */
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.section-link {
+  margin: 7px 2px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.name {
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+/* page formatting */
+.page {
+  padding: 70px 70px 70px 270px;
+}
+
+/* Work */
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  padding: 0px 15px;
+}
+
+.row {
+  margin: 50px 0px;
+}
+
+.proj-image{
+  max-width: 90%;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.proj-header{    
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: .5;
+  font-size: 23px;
+  display: block;
+  padding: 10px 0px;
+}
+
+.role-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: rgb(167, 164, 164);
+  margin-bottom: 6px;
+  margin-top: 8x;
+}
+
+.proj-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+} 
+
+/* About */
+#about {
+  margin-top: -10px;
+}
+/* old nav bar formatting */
+#logo {
+  width: 120px;
+  float: left;
+}
+
 .topnav {
-  padding: 30px;
+  padding: 30px 20px;
   overflow: hidden;
   /* background-color: #333; */
   background-color: white;
@@ -84,11 +162,12 @@ h4 {
 /*nav bar links*/
 .topnav a {
   float: right;
-  display: block;
+  /* display: block; */
   /* color: #f2f2f2; */
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 15px;
+  padding-top: 45px;
   text-decoration: none;
   font-family: 'Mukta', sans-serif;
   letter-spacing: .5;
@@ -101,12 +180,6 @@ h4 {
   color: rgba(0, 0, 0, 0.8);
 }
 
-body {
-  /* background-color: #addcf1; */
-  background-color: white;
-  text-align: center;
-
-}
 
 h1 {
   font-family: 'Sans-Serif', 'bold';
@@ -155,24 +228,19 @@ p {
   to{border-right-color: transparent;}
 }  */
 
-.intro{
-  font-size: 20px;
-  display: flex;
-  text-align: left;
-  padding: 50px;
-  padding-bottom: 10%;
-}
 
-.row{
+
+/* .row{
   margin: 5% 0%;
+} */
+
+
+
+.abt-image{
+  padding-right: 0px;
 }
 
-.proj-image{
-  max-width: 85%;
-  height: auto;
-}
-
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
   .proj-image{
     max-width: 50%;
@@ -188,25 +256,60 @@ p {
     height: auto;
     float: none;
   }
-}
-
+} */
+/* 
 .right-col{
   padding: 1%;
   padding-right: 2%;
   text-align: left;
 }
 
-.proj-header{    
-  font-family: sans-serif;
-  font-weight: 500;
-  letter-spacing: .5;
-  font-size: 23px;
-  display: block;
-  padding-bottom: 1%;
+
+
+
+  
+/* dark mode */
+/* body{
+  background-color: #1B1F23;
+  color: #E1E4E8;
+  opacity: 90%;
+}
+
+.topnav{
+  background-color: #1B1F23;
+} */
+
+/* .portfolio-intro{
+  overflow: hidden;
+}
+
+.portfolio-intro:after{
+  content:"";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-left: 10px;
+  border-bottom: 2px solid #5ba4cf;
+} */
+
+/* #logo{
+  border-radius: 15px;
+}
+
+.topnav a{
+  color: #E1E4E8;
+}
+
+.topnav a:hover{
+  color: white;
+}
+
+.lightgray{
+  color: #959DA5
 }
 
 .proj-description{
-  font-size: 16px;
-}
-  
-  
+  color: #959DA5;
+} */
+

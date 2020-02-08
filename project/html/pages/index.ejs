@@ -1,98 +1,142 @@
 <html lang="en">
+
 <head>
 
-    <% include ../helpers/head %>
-    <link href="https://fonts.googleapis.com/css?family=Mukta:400,700,800&display=swap" rel="stylesheet">
+  <% include ../helpers/head %>
 </head>
 
 <body>
-    <div class="topnav">
-        <!-- <a href="https://www.linkedin.com/in/joieng/">LinkedIn</a> -->
-        <!-- <a href="https://github.com/joiewyng?tab=repositories">GitHub</a> -->
-        <a href="https://drive.google.com/file/d/1ICEGM9LivAPuVtULIv0WOZvZ8p4Vc2Es/view?usp=sharing">Resume</a>
-        <a href="about">About</a>
-        <a href="/">Portfolio</a>
+
+  <ul>
+    <li class="name"><a href="/">Joie Ng</a></li>
+    <li class="section-link"><a href="about">about</a></li>
+    <li class="section-link"><a href="/">work</a></li>
+    <li class="section-link"><a
+        href="https://drive.google.com/file/d/1wOoFhgAIpDrS2qjSsyyX_EJ7jGYvD1PW/view?usp=sharing">resume</a></li>
+  </ul>
+
+  <!-- <div class="topnav">
+    <img id="logo" src="../images/signature.jpg">
+    <a href="https://drive.google.com/file/d/1CeFThQTMOqF3CsOaxOZoIO7t6Dawft7h/view?usp=sharing">Resume</a>
+    <a href="about">About</a>
+    <a href="/">Portfolio</a>
+  </div> -->
+
+  <div class="page">
+    <div class="portfolio-intro">
+      <div class="intro">
+        Hello, I'm Joie.
+      </div>
+      <div class="intro lightgray">
+        I am a sophomore studying Computer Science at Cornell.
+      </div>
+      <br>
     </div>
 
-   
-    
+    <div class="row">
+      <div class="col-lg-6 col-md-6 left-col">
+        <img class="proj-image" src="../images/mockups/Piazza2.0-mockup.png">
+      </div>
+      <div class="col-lg-6 col-md-6 right-col">
+        <text class="proj-header">
+          Query (Coming Soon!)
+        </text>
+        <div class="role-description">
+          Frontend Developer
+        </div>
+        <text class="proj-description">
+          Query is a web application that provides a Q&A platform where university
+          students can post major-related and school-specific questions about courses,
+          requirements, etc.
+          <br>
+
+        </text>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 left-col">
+        <img class="proj-image" src="../images/mockups/Currents-Mobile-mockup.png">
+      </div>
+      <div class="col-lg-6 col-md-6 right-col">
+        <text class="proj-header">
+          Currents
+        </text>
+        <div class="role-description">
+          Mobile Developer
+        </div>
+        <text class="proj-description">
+          Cornell University Sustainable Design’s Currents project aims to maximize
+          energy savings in campus rooms by controlling the heating systems. The
+          mobile application allows users to monitor andupdate the state of the
+          heating system. I am building the frontend and integrating it with the
+          server using ReactNative and Node.js.
+          <br>
+
+        </text>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 left-col">
+        <img class="proj-image" src="../images/mockups/BBHS-R&S-mockup.png">
+      </div>
+      <div class="col-lg-6 col-md-6 right-col">
+        <text class="proj-header">
+          BBHS Roots & Shoots Website
+        </text>
+        <div class="role-description">
+          Web Developer & UI Designer
+        </div>
+        <text class="proj-description">
+          A website created for Blind Brook High School's Roots & Shoots club,
+          which focuses on promoting sustainability within the school and local community
+          through various initiatives.
+          <br>
+
+        </text>
+      </div>
+    </div>
+    <!-- 
+    <div class="row">
+      <div class="col-lg-6 col-md-6 left-col">
+        <img class="proj-image" src="../images/OH-app.jpg">
+      </div>
+      <div class="col-lg-6 col-md-6 right-col">
+        <text class="proj-header">
+          OH!
+        </text>
+        <div class="role-description">
+          iOS Developer
+        </div>
+        <text class="proj-description">
+          OH! is an iOS application that consolidates office hours for Cornell classes
+          onto one platform.
+          I worked on frontend development using Xcode and Swift,
+          collaborating as part of a 4 person team with other developers and a designer.
+          <br>
+
+        </text>
+      </div> -->
+  </div>
+
+
+  <!--
+    <button class="btn btn-default" type="button" onclick="myFunction()">
+      "!!!"
+    </button>
+  -->
+
+
+  </div>
+
 
   <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <!-- <div class="page-header">
     <h1>Joie Ng</h1>
   </div> -->
- 
-  
-  <div class="intro row">
-    Hello, I'm Joie.
-    <br>
-    I am a sophomore studying Computer Science at Cornell...
-  </div>
 
-  <div class="row">
-      <div class="col-lg-4 col-sm-5 left-col">
-          <img class="proj-image" src="../images/currents-app.jpg"> 
-      </div>
-      <div class="col-lg-8 col-sm-7 right-col">
-        <text class="proj-header">
-          Currents
-        </text>
-        <text class="proj-description">
-            Cornell University Sustainable Design’s Currents project aims to maximize 
-            energy savings in campus rooms by controlling the heating systems based on 
-            user location predictions. The mobile application allows users to monitor and 
-            update the state of the heating system. I am currently implementing 
-            this app and integrating it with the server using ReactNative and Node.js.
-          <br>
-          
-        </text>
-      </div>
-  </div>
-  
-  <div class="row">
-      <div class="col-lg-4 col-sm-5 left-col">
-          <img class="proj-image" src="../images/roots-and-shoots-website.jpg"> 
-      </div>
-      <div class="col-lg-8 col-sm-7 right-col">
-        <text class="proj-header">
-          BBHS Roots & Shoots Website
-        </text>
-        <text class="proj-description">
-          A website created for Blind Brook High School's Roots & Shoots club, 
-          which focuses on promoting sustainability within the school and local community
-          through various initiatives. 
-          <br>
-          
-        </text>
-      </div>
-  </div>
-
-  <div class="row">
-      <div class="col-lg-4 col-sm-5 left-col">
-          <img class="proj-image" src="../images/OH-app.jpg"> 
-      </div>
-      <div class="col-lg-8 col-sm-7 right-col">
-        <text class="proj-header">
-          OH!
-        </text>
-        <text class="proj-description">
-          OH! is an iOS application that consolidates office hours for Cornell classes 
-          onto one platform. 
-          I worked on frontend development using Xcode and Swift, 
-          collaborating as part of a 4 person team with other developers and a designer. 
-          <br>
-          
-        </text>
-      </div>
-  </div>
-
-  
-<!--
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    "!!!"
-  </button>
--->
 
 </body>
 
